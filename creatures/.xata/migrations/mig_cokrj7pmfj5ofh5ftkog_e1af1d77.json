@@ -1,0 +1,16 @@
+{
+  "id": "mig_cokrj7pmfj5ofh5ftkog",
+  "parentID": "mig_cokrj1hmfj5ofh5ftkng",
+  "checksum": "1:e1af1d77883b10d9056806ec86c542e1933af82239ffe7a47629c6529768fe5a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Product",
+          "type": "text"
+        },
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

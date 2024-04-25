@@ -1,0 +1,11 @@
+{
+  "id": "mig_cokricehoer3un28hj2g",
+  "checksum": "1:459b9530cce279a36c2208dc069ebaedc52ef849f4e96d479ed74439101b8c64",
+  "operations": [
+    {
+      "addTable": {
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

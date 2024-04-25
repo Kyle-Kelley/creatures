@@ -1,0 +1,19 @@
+{
+  "id": "mig_cokrkpehoer3un28hj4g",
+  "parentID": "mig_cokrjppmfj5ofh5ftkqg",
+  "checksum": "1:8a39f3ec8ae60c2d5a6fe545de8d4e7fb7439ab6f1e7299ff6a91c9e15bd45ac",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Pictures",
+          "type": "file[]",
+          "file[]": {
+            "defaultPublicAccess": true
+          }
+        },
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

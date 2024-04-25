@@ -1,0 +1,13 @@
+{
+  "id": "mig_cokrmiuhoer3un28hj5g",
+  "parentID": "mig_cokrkpehoer3un28hj4g",
+  "checksum": "1:70d1053823f960ae86c70581f117cc8542a36693e0f6968b289fb20cb0549db3",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "products",
+        "oldName": "creatureViews"
+      }
+    }
+  ]
+}

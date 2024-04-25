@@ -1,0 +1,16 @@
+{
+  "id": "mig_cokrj1hmfj5ofh5ftkng",
+  "parentID": "mig_cokricehoer3un28hj2g",
+  "checksum": "1:3fd104ee93c592ef60370ad6d9c61d1d35916cbbd135a76026141e455a665d5c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Subject",
+          "type": "text"
+        },
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

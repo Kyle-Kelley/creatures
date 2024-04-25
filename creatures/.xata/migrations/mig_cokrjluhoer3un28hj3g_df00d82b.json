@@ -1,0 +1,16 @@
+{
+  "id": "mig_cokrjluhoer3un28hj3g",
+  "parentID": "mig_cokrjchmfj5ofh5ftkpg",
+  "checksum": "1:df00d82bbd4155540ed07965349a00576d89043835a14fed2f566e91bc6e49df",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Review",
+          "type": "text"
+        },
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

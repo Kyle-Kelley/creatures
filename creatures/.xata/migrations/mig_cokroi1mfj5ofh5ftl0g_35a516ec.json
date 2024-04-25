@@ -1,0 +1,14 @@
+{
+  "id": "mig_cokroi1mfj5ofh5ftl0g",
+  "parentID": "mig_cokrofhmfj5ofh5ftkvg",
+  "checksum": "1:35a516ec8e458404a269a727cce5f21c97de91cdd709ece68c4e472d229cb4e3",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "review",
+        "oldName": "Review",
+        "table": "products"
+      }
+    }
+  ]
+}

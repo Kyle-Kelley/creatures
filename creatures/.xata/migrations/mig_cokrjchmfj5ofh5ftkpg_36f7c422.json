@@ -1,0 +1,17 @@
+{
+  "id": "mig_cokrjchmfj5ofh5ftkpg",
+  "parentID": "mig_cokrj7pmfj5ofh5ftkog",
+  "checksum": "1:36f7c422a212ad3d8eacd5000062efc4df900f92bcc84d515e10e2b62442ba1e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Link",
+          "type": "string",
+          "unique": true
+        },
+        "table": "creatureViews"
+      }
+    }
+  ]
+}

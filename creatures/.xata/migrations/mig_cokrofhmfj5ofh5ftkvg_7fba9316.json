@@ -1,0 +1,14 @@
+{
+  "id": "mig_cokrofhmfj5ofh5ftkvg",
+  "parentID": "mig_cokroc1mfj5ofh5ftkug",
+  "checksum": "1:7fba93165274abd03f7a919a7d7553004fd2938de90544947639b7c101ceea9b",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "link",
+        "oldName": "Link",
+        "table": "products"
+      }
+    }
+  ]
+}

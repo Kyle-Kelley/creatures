@@ -1,0 +1,14 @@
+{
+  "id": "mig_cokrom1mfj5ofh5ftl2g",
+  "parentID": "mig_cokrojpmfj5ofh5ftl1g",
+  "checksum": "1:33c2b66e86838cd9671b3920604256fa4be05c83fc000434b2db7d39c0904299",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "pictures",
+        "oldName": "Pictures",
+        "table": "products"
+      }
+    }
+  ]
+}
