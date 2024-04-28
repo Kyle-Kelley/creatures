@@ -18,10 +18,10 @@ interface createReviewState {
 
 export default async function Submit(){
     const [formData, setFormData] = useState<createReviewState> ({
+        subject: "",
         category: "",
         subCategory: '',
         review: "",
-        subject: "",
         product: "",
         link: "",
         author: "",
@@ -51,17 +51,62 @@ export default async function Submit(){
         setFormData((prevData: createReviewState) => ({...prevData, [name]: value}))
     };
 
-    const handleSubmit = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleSubmit = async (e: React.SyntheticEvent) => {
         e.preventDefault;
         try {
             const response = await xata.db.products.create({
-        
+                subject: `{subject.value}`,
+                category: `{category.value}`,
+                subCategory: `{subCategory.value}`,
+                review: `{review.value}`,
+                product: `{product.value}`,
+                link: `{link.value}`,
+                author: `{author.author}`
             })
         }
         catch (error) {
             console.log(error)
         }
     }
-    
+    return (
+        <div>
+            <form id="ProductReview" onSubmit={handleSubmit}>
+                <ul>
+                    <li>
+                        <label htmlFor='subject'></label>
+                        <input value={formData.subject} type="text" name="subject" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='category'></label>
+                        <input value={formData.category} type="text" name="category" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='subCategory'></label>
+                        <input value={formData.subCategory} type="text" name="subCategory" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='product'></label>
+                        <input value={formData.product} type="text" name="product" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='review'></label>
+                        <input value={formData.review} type="text" name="review" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='link'></label>
+                        <input value={formData.link} type="text" name="link" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='pictures'></label>
+                        <input value={formData.pictures} type="file" name="pictures" id="" onChange={handleChange}></input>
+                    </li>
+                    <li>
+                        <label htmlFor='author'></label>
+                        <input value={formData.author} type="text" name="author" id="" onChange={handleChange}></input>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    )
 
 }
