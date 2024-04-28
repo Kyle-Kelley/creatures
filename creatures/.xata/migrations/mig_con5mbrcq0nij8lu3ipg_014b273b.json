@@ -1,0 +1,14 @@
+{
+  "id": "mig_con5mbrcq0nij8lu3ipg",
+  "parentID": "mig_colbnotsh4hujd28kj4g",
+  "checksum": "1:014b273bcb12e7509513a0d70c629c5e546d247bd061cabfd3f0aae773dfaa3a",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "category-old",
+        "oldName": "category",
+        "table": "products"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_con65mcn4bv1hhjnbrng",
+  "parentID": "mig_con65brcq0nij8lu3j2g",
+  "checksum": "1:b6092ee8590e6d8082a57b0afcaf3252b029234e9172c4c423af777075df4e5b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "author",
+          "type": "string"
+        },
+        "table": "products"
+      }
+    }
+  ]
+}

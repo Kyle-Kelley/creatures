@@ -1,0 +1,14 @@
+{
+  "id": "mig_con64f4n4bv1hhjnbrlg",
+  "parentID": "mig_con64ccn4bv1hhjnbrkg",
+  "checksum": "1:b16248603337dbe83162e6cc9e387304bc6cc3426b3e0e1a38c89be2aff2d6af",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "category-old",
+        "oldName": "category",
+        "table": "products"
+      }
+    }
+  ]
+}

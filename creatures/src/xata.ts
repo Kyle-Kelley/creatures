@@ -10,18 +10,18 @@ const tables = [
   {
     name: "products",
     columns: [
-      { name: "subject", type: "text" },
-      { name: "product", type: "text" },
       { name: "link", type: "string", unique: true },
-      { name: "review", type: "text" },
-      { name: "author", type: "text" },
       {
         name: "pictures",
         type: "file[]",
         "file[]": { defaultPublicAccess: true },
       },
-      { name: "category", type: "text" },
-      { name: "subCategory", type: "text" },
+      { name: "subject", type: "string" },
+      { name: "subCategory", type: "string" },
+      { name: "product", type: "string" },
+      { name: "review", type: "string" },
+      { name: "author", type: "string" },
+      { name: "category", type: "string" },
     ],
   },
 ] as const;

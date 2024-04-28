@@ -1,0 +1,13 @@
+{
+  "id": "mig_con69kbcq0nij8lu3j6g",
+  "parentID": "mig_con69j3cq0nij8lu3j5g",
+  "checksum": "1:e4f6640f309db0ab76d9f88d6a3a9989a1f9ecd06a63f8e8ed8c5d34151e0ac6",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "review-old",
+        "table": "products"
+      }
+    }
+  ]
+}
