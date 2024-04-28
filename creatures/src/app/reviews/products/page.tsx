@@ -16,12 +16,12 @@ export default async function Page({ searchParams }: { searchParams: { q: string
             <h2 className="text-2xl mb-2">
               <Link href={`/reviews/products/${view.id}`}>{view.subject}</Link>
             </h2>
-            <p className="dark:text-purple-200 mb-5">
+            <p className="mb-5">
               {view.review}
             </p>
             <Link
               href={`/reviews/products/${view.id}`}
-              className="px-4 py-2 font-semibold text-sm text-white dark:text-purple-200 rounded-lg shadow-sm w-fit"
+              className="px-4 py-2 font-semibold text-sm rounded-lg shadow-sm w-fit"
             >
               Read More &rarr;
             </Link>

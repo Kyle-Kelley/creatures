@@ -1,0 +1,16 @@
+{
+  "id": "mig_colbnotsh4hujd28kj4g",
+  "parentID": "mig_cokroqmhoer3un28hj6g",
+  "checksum": "1:61b693c1c0dd994808dd3a80bdacf920eee47a5ee1899f855f68ba0b136e19e0",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "subCategory",
+          "type": "text"
+        },
+        "table": "products"
+      }
+    }
+  ]
+}

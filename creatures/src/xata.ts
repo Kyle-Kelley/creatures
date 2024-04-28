@@ -21,6 +21,7 @@ const tables = [
         "file[]": { defaultPublicAccess: true },
       },
       { name: "category", type: "text" },
+      { name: "subCategory", type: "text" },
     ],
   },
 ] as const;
