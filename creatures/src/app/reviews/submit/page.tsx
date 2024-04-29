@@ -98,7 +98,7 @@ export default async function Submit(){
                     </li>
                     <li>
                         <label htmlFor='pictures'></label>
-                        <input value={formData.pictures} type="file" name="pictures" id="" onChange={handleChange}></input>
+                        <input type="file" name="pictures" id="" onChange={handleChange}></input>
                     </li>
                     <li>
                         <label htmlFor='author'></label>
